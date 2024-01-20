@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "370407670975",
+    "project_id": "student-baf44",
+    "storage_bucket": "student-baf44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370407670975:android:247716148223db6d59f20a",
+        "android_client_info": {
+          "package_name": "com.example.quanlihocsinh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJvcLkw3t-7QxTAWozAtFngY9BoLsAcyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

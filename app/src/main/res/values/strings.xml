@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuanLiHocSinh</string>
+    <string name="select">Chọn khối</string>
+    <string name="back_button_description">omg</string>
+    <string name="submit">omg</string>
+    <string name="not_update">Chưa cập nhật</string>
+</resources>

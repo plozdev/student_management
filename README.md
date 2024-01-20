@@ -1,0 +1,3 @@
+- Đây là app chưa được hoàn chỉnh, được hoàn thiện bởi một mình cá nhân mình.
+- Thời gian: Khoảng chừng 2 tháng.
+- Đây là app đầu tay tự làm để nộp điểm học kì, bằng những kiến thức tự học Android Studio trên mạng nên dự án chỉ có những chức năng cơ bản."# quanlihocsinh" 
