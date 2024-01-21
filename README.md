@@ -1,6 +1,6 @@
 - Đây là app chưa được hoàn chỉnh, được hoàn thiện bởi một mình cá nhân mình.
 - Thời gian: Khoảng chừng 2 tháng.
-- Đây là app đầu tay tự làm để nộp điểm học kì, bằng những kiến thức tự học Android Studio trên mạng nên dự án chỉ có những chức năng cơ bản.
+- Đây là app đầu tay tự làm để nộp điểm học kì, bằng những kiến thức tự học Android Studio trên mạng nên dự án chỉ có những chức năng cơ bản và vẫn còn một số lỗi nhất định.
   
 [GIAO DIỆN APP]
 ![image](https://github.com/mikeazk2006/quanlihocsinh/assets/96047802/aae3284a-1f1e-419e-b580-eb4fdb3c6401)
