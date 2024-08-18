@@ -30,6 +30,7 @@ public class AddActivity extends AppCompatActivity {
         final TextInputEditText edit_gmail = findViewById(R.id.edtGmail);
         final TextInputEditText edit_name = findViewById(R.id.edtName);
         final TextInputEditText edit_phone = findViewById(R.id.edtPhone);
+
         DAOStudent dao = new DAOStudent();
         btn = findViewById(R.id.buttonAdd);
         Button btn_open = findViewById(R.id.btn_open);
