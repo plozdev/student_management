@@ -18,7 +18,7 @@
         android:textColor="@color/lavender"
         android:textSize="28sp"
         android:layout_marginTop="42dp"
-        android:background="@drawable/lavender_border"
+        android:background="@drawable/yellow_border"
         android:gravity="center_vertical|center_horizontal"/>
     <ImageView
         android:layout_width="240dp"
