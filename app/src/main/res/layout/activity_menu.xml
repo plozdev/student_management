@@ -5,8 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bkg"
+    android:background="@drawable/bgk"
     tools:context=".main.MainActivity">
+
 
     <TextView
         android:layout_width="200dp"
@@ -19,17 +20,26 @@
         android:layout_marginTop="42dp"
         android:background="@drawable/lavender_border"
         android:gravity="center_vertical|center_horizontal"/>
-
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:id="@+id/logo"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@+id/title"
+        android:layout_above="@id/gridLayout"/>
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/gridLayout"
+        android:layout_alignParentBottom="true"
         android:rowCount="2"
         android:columnCount="3"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="80dp">
+
+        android:layout_marginBottom="50dp">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/schoolCard"
@@ -88,7 +98,7 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/news_48"/>
+                    android:src="@drawable/news_50"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -123,7 +133,7 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/photos_gallery_48"/>
+                    android:src="@drawable/photo_gallery_48"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -197,7 +207,7 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/timetable_48" />
+                    android:src="@drawable/timetable_64" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -234,7 +244,7 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/settings_48" />
+                    android:src="@drawable/setting_50" />
 
                 <TextView
                     android:layout_width="wrap_content"
