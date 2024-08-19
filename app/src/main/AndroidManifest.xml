@@ -13,10 +13,7 @@
         android:theme="@style/Base.Theme.QuanLiHocSinh"
         tools:targetApi="34">
         <activity
-            android:name=".add.AddActivity"
-            android:exported="false" />
-        <activity
-            android:name=".rvactivity.RVActivity"
+            android:name=".classActivity.LTActivity"
             android:exported="false"
             android:label="12 Lý-Tin"
             android:parentActivityName=".menu.MenuActivity"/>

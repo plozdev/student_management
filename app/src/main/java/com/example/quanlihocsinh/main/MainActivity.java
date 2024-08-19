@@ -16,7 +16,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.quanlihocsinh.R;
-import com.example.quanlihocsinh.rvactivity.RVActivity;
+import com.example.quanlihocsinh.classActivity.LTActivity;
 
 public class MainActivity extends AppCompatActivity {
     String[] items = {"Khối 10", "Khối 11", "Khối 12"};
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         autoCompleteTxt = findViewById(R.id.auto_complete_txt);
-        adapterItems = new ArrayAdapter<String>(this, R.layout.list_item,items);
+        adapterItems = new ArrayAdapter<>(this, R.layout.list_item,items);
         autoCompleteTxt.setAdapter(adapterItems);
 
         secondAutoCompleteTxt = findViewById(R.id.second_auto_complete_txt);
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                     buttonNext.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            Intent i = new Intent(MainActivity.this, RVActivity.class);
+                            Intent i = new Intent(MainActivity.this, LTActivity.class);
                             startActivity(i);
                             finish();
                         }
